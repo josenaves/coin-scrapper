@@ -1,0 +1,25 @@
+{
+  "name": "coin-scrapper",
+  "version": "0.0.1",
+  "description": "A simple script that gets Bitcoin quotes from MercadoBitcoin and saves them in a CSV file.",
+  "main": "cli.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "bitcoin",
+    "node",
+    "script",
+    "mercado-bitcoin"
+  ],
+  "author": "José Naves Moura Neto <josenaves@gmail.com>",
+  "license": "ISC",
+  "bin": {
+    "coin-scrapper": "./cli.js"
+  },
+  "dependencies": {
+    "axios": "^0.17.1",
+    "json2csv": "^3.11.5",
+    "moment": "^2.19.3"
+  }
+}
